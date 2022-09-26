@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;600;700;800;900&display=swap");
+:root {
+     --outfit-font: "Outfit";
+}
+* {
+     box-sizing: border-box;
+     padding: 0;
+     margin: 0;
+}
+
+.container {
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: #0d192c;
+}
+.card {
+     background-color: #15263f;
+     width: 350px;
+     height: 596px;
+}
+.card-cont-image,
+.card-content {
+     margin: 24px auto;
+     width: 302px;
+     height: 302px;
+}
+
+.card-image {
+     margin: 0 auto;
+     width: 100%;
+     height: 100%;
+}
+
+.card-content {
+     display: flex;
+     flex-direction: column;
+     gap: 16px;
+}
+
+.eth-cont {
+     display: flex;
+     align-items: center;
+     gap: 6px;
+}
+
+.about-etherum {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 8px;
+     position: relative;
+}
+.about-etherum::after {
+     content: "";
+     position: absolute;
+     bottom: -24px;
+     width: 302px;
+     height: 1px;
+     background-color: #2e405a;
+}
+
+.person-cont {
+     display: flex;
+     align-items: center;
+     gap: 16px;
+     margin-top: 24px;
+}
+.eth-date {
+     display: flex;
+     align-items: center;
+     gap: 6px;
+}
+/* title style */
+.card-name {
+     cursor: pointer;
+     color: #fff;
+     font-size: 22px;
+     font-weight: 600;
+     font-family: var(--outfit-font);
+}
+
+.card-name:hover {
+     color: #00fff8;
+}
+
+.card-text {
+     color: #8bacd9;
+     font-weight: 300;
+     font-size: 18px;
+     font-family: var(--outfit-font);
+}
+
+.eth-num {
+     color: #00fff8;
+     font-weight: 600;
+     font-size: 16px;
+     font-family: var(--outfit-font);
+}
+
+.eth-time-title {
+     color: #8bacd9;
+     font-family: var(--outfit-font);
+     font-weight: 400;
+     font-size: 16px;
+}
+
+.person-pic {
+     width: 33px;
+     height: 33px;
+}
+
+.person-tit {
+     font-family: var(--outfit-font);
+     font-weight: 400;
+     font-size: 16px;
+     color: #8bacd9;
+}
+
+.name-of-person {
+     font-weight: 400;
+     font-size: 16px;
+     color: #fff;
+}
+.name-of-person:hover {
+     color: #00fff8;
+}
