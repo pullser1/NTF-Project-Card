@@ -73,9 +73,10 @@
 }
 /* title style */
 .card-name {
-     cursor: pointer;
      color: #fff;
      font-size: 22px;
+     transition: 0.5s all ease-in-out;
+     cursor: pointer;
      font-weight: 600;
      font-family: var(--outfit-font);
 }
@@ -118,6 +119,8 @@
 }
 
 .name-of-person {
+     transition: 0.5s all ease-in-out;
+     cursor: pointer;
      font-weight: 400;
      font-size: 16px;
      color: #fff;
